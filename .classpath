@@ -10,6 +10,5 @@
 	<classpathentry kind="src" path="etiquetaspolimorfismo"/>
 	<classpathentry kind="src" path="impostopolimorfismo"/>
 	<classpathentry kind="src" path="tratamentoExcecao"/>
-	<classpathentry kind="src" path="jogoxadrez"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
