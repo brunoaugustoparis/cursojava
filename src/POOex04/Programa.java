@@ -17,8 +17,7 @@ public class Programa {
 		System.out.println("Qual valor de dólar a ser comprado? ");	
 		conversao.dolar = sc.nextDouble();
 		
-		System.out.println("O valor a ser pago em reais é: " + conversao.valorEmReal());
-		
+		System.out.println("O valor a ser pago em reais é: " + conversao.valorEmReal());		
 	}
 
 }

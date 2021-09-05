@@ -23,6 +23,4 @@ public class quartos {
 	public int getNumQuarto() {
 		return numQuarto;
 	}
-	
-
 }

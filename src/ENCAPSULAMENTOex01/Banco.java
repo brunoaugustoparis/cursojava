@@ -16,8 +16,7 @@ public class Banco {
 		public Banco(int conta, String nome) {			
 			this.conta = conta;
 			this.nome = nome;
-		}
-		
+		}		
 
 		public int Depositar(int deposito) {
 			return saldo += deposito;

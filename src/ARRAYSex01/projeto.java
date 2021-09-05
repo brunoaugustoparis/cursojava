@@ -32,11 +32,7 @@ public class projeto {
 				if (cadastro[i] != null) {
 					System.out.println(i + ": " + cadastro[i].getNome() + ", " + cadastro[i].getEmail());
 				}
-			}
-		
-		
-		
-		
+			}		
 
 	}
 

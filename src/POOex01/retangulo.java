@@ -16,7 +16,6 @@ public class retangulo {
 		public double Diagonal() {				
 			return Math.sqrt(Math.pow(altura, 2) + Math.pow(largura, 2));		
 		}
-		
 	}
 	
 	

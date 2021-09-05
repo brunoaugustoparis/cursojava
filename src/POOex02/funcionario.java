@@ -13,7 +13,6 @@ public class funcionario {
 	
 	public double novoSalario (double porc) {
 		return (salario+salario*porc/100) - imposto;
-	}
-	
+	}	
 
 }

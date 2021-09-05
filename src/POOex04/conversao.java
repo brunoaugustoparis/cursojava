@@ -7,8 +7,5 @@ public class conversao {
 	
 	public double valorEmReal () {
 		return (cotacao*dolar) + (cotacao*dolar)*6/100;		
-	}
-	
-	
-	
+	}	
 }

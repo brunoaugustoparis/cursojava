@@ -9,8 +9,7 @@ public class Programa {
 	
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Banco contabancaria;
-		
+		Banco contabancaria;		
 		
 		System.out.print("Qual a conta bancaria?");
 		int conta = sc.nextInt();

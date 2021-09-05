@@ -10,8 +10,7 @@ public class Programa {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		retangulo retangulo = new retangulo ();
-		
+		retangulo retangulo = new retangulo ();		
 
 		System.out.println("Qual a altura do retângulo? ");
 		retangulo.altura = sc.nextDouble();

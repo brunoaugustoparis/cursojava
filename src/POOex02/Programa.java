@@ -27,5 +27,4 @@ public class Programa {
 		System.out.println("\nNovo salário: " + funcionario.name + ", $ " + funcionario.novoSalario(aumento));
 
 	}
-
 }

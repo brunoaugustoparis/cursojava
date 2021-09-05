@@ -29,12 +29,7 @@ public class Programa {
 			System.out.println("FALTARAM " + aluno.pontosRestantes() + " PONTOS");
 		} else {
 			System.out.println("APROVADO");
-		}
-		
-		
-		
-		
-		
+		}		
 		
 		sc.close();
 

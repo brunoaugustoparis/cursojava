@@ -18,11 +18,7 @@ public class aluno {
 		
 		public int pontosRestantes () {
 			return 60 - somaNotas();
-		}
-		
-		
-		
-		
+		}		
 
 	}
 
