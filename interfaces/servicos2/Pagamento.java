@@ -15,12 +15,13 @@ public class Pagamento {
 	}
 	
 	public void processandoContrato(Contrato contrato, int p) {
-			double cotaBasica = contrato.getValorTotal()/p;
+		 double cotaBasica = contrato.getValorContrato()/p;
+		 
 		 for (int i = 1; i <= p; i++) {
 			 Date data = addMes(contrato.getData(), i);	 
-			 contrato.addPrestacao(new Prestacoes(data,plataforma.pagamento(cotaBasica, i)));
-		 }
-	
+			 Prestacoes prestacao = new Prestacoes(data,plataforma.pagamento(cotaBasica, i));
+			 contrato.addPrestacao(prestacao);
+		 }	
 	}
 		 
 		 
@@ -29,7 +30,6 @@ public class Pagamento {
 				cal.setTime(data);
 				cal.add(Calendar.MONTH, n);
 				return cal.getTime();
-
 		 }
 		 
 		 

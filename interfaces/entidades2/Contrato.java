@@ -12,10 +12,10 @@ public class Contrato {
 	
 	List<Prestacoes> list = new ArrayList<>();
 
-	public Contrato(Integer numero, Date data, Double valorTotal) {
+	public Contrato(Integer numero, Date data, Double valorContrato) {
 		this.numero = numero;
 		this.data = data;
-		this.valorContrato = valorTotal;
+		this.valorContrato = valorContrato;
 	}
 
 	public Integer getNumero() {
@@ -34,11 +34,11 @@ public class Contrato {
 		this.data = data;
 	}
 
-	public Double getValorTotal() {
+	public Double getValorContrato() {
 		return valorContrato;
 	}
 
-	public void setValorTotal(Double valorTotal) {
+	public void setValorContrato(Double valorTotal) {
 		this.valorContrato = valorTotal;
 	}
 
