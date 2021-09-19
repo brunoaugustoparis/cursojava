@@ -24,7 +24,7 @@ public class Programa {
 		System.out.print("Data: ");
 		Date data = sdf.parse(sc.next());
 		System.out.print("Valor: ");
-		double valor = sc.nextDouble();
+		double valor = sc.nextDouble(); 
 		Contrato cont = new Contrato(num, data, valor);
 		
 		System.out.print("Qual a quantidade de prestações: ");
